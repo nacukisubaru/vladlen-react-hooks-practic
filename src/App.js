@@ -4,6 +4,7 @@ import React, {useState} from 'react'
 import Counter from './examples/state';
 import Users from './examples/users';
 import CounterUseRef from './examples/effect';
+import MemoCounter from './examples/memo';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
    <Counter />
    <Users />
    <CounterUseRef />
+   <MemoCounter />
    </div>
   );
 }
