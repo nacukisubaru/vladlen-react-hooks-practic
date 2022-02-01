@@ -1,12 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import React, {useState} from 'react';
+import React, {useState} from 'react'
 
 function App() {
-  const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(0)
 
   function increment() {
-    setCounter(counter + 1);
+    setCounter(counter + 1)
+    // установка нового состояния в зависимости от предыидущего 
+    setCounter((prevCounter) => {
+      return prevCounter + 1
+    })
+    setCounter(prev => prev + 1)
   }
 
   function decrement() {
