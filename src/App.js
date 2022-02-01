@@ -3,6 +3,7 @@ import './App.css';
 import React, {useState} from 'react'
 import Counter from './examples/state';
 import Users from './examples/users';
+import CounterUseRef from './examples/effect';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
   <div className="wrapper">
    <Counter />
    <Users />
+   <CounterUseRef />
    </div>
   );
 }
