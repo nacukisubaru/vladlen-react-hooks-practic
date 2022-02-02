@@ -5,6 +5,7 @@ import Counter from './examples/state';
 import Users from './examples/users';
 import CounterUseRef from './examples/effect';
 import MemoCounter from './examples/memo';
+import CounterCallback from './examples/callback';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
    <Users />
    <CounterUseRef />
    <MemoCounter />
+   <CounterCallback />
    </div>
   );
 }
