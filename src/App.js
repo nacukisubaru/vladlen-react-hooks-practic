@@ -12,6 +12,7 @@ import {AlertProviderReducer} from './example_app/alert_reducer/AlertContext';
 import Main from "./example_app/alert/Main";
 import Alert from "./example_app/alert/Alert";
 import {AlertProvider} from './example_app/alert/AlertContext';
+import InputApp from "./examples/customHooks";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <CounterUseRef />
           <MemoCounter />
           <CounterCallback />
+          <InputApp />
       </div>
   );
 }
